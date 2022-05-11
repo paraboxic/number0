@@ -1,0 +1,15 @@
+import random
+l=[]
+i=0
+for i in range(1000):
+    num=  random.randint(0,1000)
+    i+=1
+    #print(num)
+    l.append(num)
+
+
+print("thisis",l)
+
+for i in l:
+    print(i%10)
+    i+=1
