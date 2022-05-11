@@ -1,0 +1,17 @@
+import random
+l=[]
+i=0
+for i in range(10000):
+    num=  random.randint(0,1000)
+    i+=1
+    #print(num)
+    l.append(num)
+
+
+print("thisis",l)
+
+for i in l:
+    while i >= 10:
+        i = i // 10;
+    print(i)
+    i += 1
